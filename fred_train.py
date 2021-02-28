@@ -13,7 +13,7 @@ from sklearn.utils import shuffle
 from sklearn.model_selection import train_test_split
 
 from keras import backend as K
-K.set_image_dim_ordering('tf')
+K.common.set_image_dim_ordering('th')
 
 from keras.utils import np_utils
 from keras.models import Sequential
